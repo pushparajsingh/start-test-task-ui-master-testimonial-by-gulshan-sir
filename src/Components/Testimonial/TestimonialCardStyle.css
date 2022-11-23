@@ -1,0 +1,70 @@
+.text-right{
+    text-align: right;
+}
+.modal-body{
+    padding: 10px;
+    margin: 15ps;
+}
+.input{
+    width: 100%;
+    padding: 6px 20px;;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.image-wrapper{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.image-wrapper img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.image-wrapper .action{
+    position: relative;
+    height: 32px;
+    width: 32px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 0 auto;
+    z-index: 2;
+    top: 83px;
+}
+
+.image-wrapper input{
+    opacity: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.image-wrapper button{
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slick-slider{
+    width: 100%;
+}
+
+.slick-dots li button:before, .slick-dots li.slick-active button:before, .slick-dots li button:hover:before, .slick-dots li button:focus:before{
+    opacity: 0;
+}
